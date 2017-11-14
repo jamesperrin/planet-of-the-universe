@@ -1,3 +1,8 @@
-markdown: redcarpet
+# markdown: redcarpet
 baseurl: /planet-of-the-universe
 exclude: ['README.md']
+
+collection:
+  posts:
+    output: true
+    permalink: /posts/:path/

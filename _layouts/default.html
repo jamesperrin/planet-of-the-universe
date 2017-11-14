@@ -6,18 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Planets of the Universe</title>
     <meta datecreated="20171107">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/common.css">
 </head>
 <body>
 <header>
     <h1>Planets of the Universe</h1>
-    <nav>
-       <ul>
-           <li><a href="{{site.baseurl}}/index.html">Home</a></li>
-           <li><a href="{{site.baseurl}}/news.html">News</a></li>
-       </ul> 
-    </nav>
+    {% include nav.html navclass='nav-top' %}
 </header>
     {{content}}
 
+    <footer>
+        {% include nav.html navclass='nav-bottom' %}
+        <p>@ 2017 Plants of the Universe</p>
+    </footer>
 </body>
 </html>
