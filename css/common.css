@@ -21,3 +21,9 @@ nav.nav-top{
 nav.nav-bottom {
     font-size: 1em;
 }
+
+a:hover{
+  /* background-color: yellow; */
+  /* font-weight: bold; */
+  border: 2px red dashed;
+}

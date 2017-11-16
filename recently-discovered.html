@@ -1,0 +1,14 @@
+---
+layout: news
+---
+
+<h1>Recently Discovered Planents</h1>
+
+<ul>
+  {% for news in site.categories.recently-discovered limit:2 %}
+  <li>
+      <a href="">{{news.title}}</a>
+      <p>{{news.meta}}</p>
+  </li>
+  {% endfor %}
+</ul>
