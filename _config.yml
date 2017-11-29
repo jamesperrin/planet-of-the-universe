@@ -1,5 +1,6 @@
 # markdown: redcarpet
-baseurl: /planet-of-the-universe
+#baseurl: /planet-of-the-universe
+baseurl: ""
 exclude: ['README.md']
 
 collection:
