@@ -8,11 +8,22 @@ layout: default
 
 <h2>Types of Planets</h2>
 <ol>
-{% for planet in site.data.planet-types-csv %}
+{% for planet in site.data.planet-types %}
   <li>
-    <a href="{{site.baseurl}}{{planet.url}}">{{planet.title}}</a>
+    <a href="{{site.baseurl}}/planets/{{planet.folder}}/">{{planet.title}}</a>
     <p>{{planet.content | markdownify }}</p>
   </li>
 
 {% endfor%}
 </ol>
+
+<h2>Recently Discovered Planents</h2>
+
+<ul>
+  {% for news in site.categories.recently-discovered limit:2 %}
+  <li>
+      <a href="{{site.baseurl}}{{news.url}}">{{news.title}}</a>
+      <p>{{news.meta}}</p>
+  </li>
+  {% endfor %}
+</ul>

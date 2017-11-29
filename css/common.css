@@ -25,5 +25,9 @@ nav.nav-bottom {
 a:hover{
   /* background-color: yellow; */
   /* font-weight: bold; */
-  border: 2px red dashed;
+  border: 1px red dashed;
+}
+
+.planets-list li {
+  list-style: none;
 }
