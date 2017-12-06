@@ -1,6 +1,7 @@
 # markdown: redcarpet
 baseurl: /planet-of-the-universe
 exclude: ['README.md']
+permalink: pretty
 
 collection:
   posts:
