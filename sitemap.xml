@@ -9,9 +9,17 @@
     {% include sitemap-entry.xml entry=post %}
   {% endif %}
 {% endfor %}
+
 {% for page in site.pages %}
   {% if page.layout %}
     {% include sitemap-entry.xml entry=page %}
   {% endif %}
 {% endfor %}
+
+{% for comet in site.comets %}
+  {% if comet.layout %}
+    {% include sitemap-entry.xml entry=comet %}
+  {% endif %}
+{% endfor %}
+
 </urlset>

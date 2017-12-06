@@ -1,0 +1,23 @@
+#===============================================================
+# DEV CONFIGURATION
+# Purpose to override production variables while in development
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Use one of the following commands to execute
+#
+# 1. Manually:
+# jekyll serve --watch --config "_config.yml,_config_dev.yml"
+#
+# 2. Bash script: 
+# scripts/dev.sh
+#
+# 3. Windows script
+# scripts/dev.bat
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Use 
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# REF:
+# https://alexplescan.com/posts/2016/03/28/development-environment-config-overrides-in-jekyll/
+#===============================================================
+
+baseurl: ""
+
