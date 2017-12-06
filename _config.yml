@@ -3,7 +3,12 @@ baseurl: /planet-of-the-universe
 exclude: ['README.md']
 permalink: pretty
 
-collection:
-  posts:
+
+collections:
+  comets:
     output: true
-    permalink: /posts/:path/
+    permalink: /comets/:path
+
+  # posts:
+  #   output: true
+  #   permalink: /posts/:path/
