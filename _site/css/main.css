@@ -35,13 +35,15 @@ a:hover{
 .current{
   background-color: #005310;
   color: #fff;
+  font-weight: bold;
 }
 
 nav li{
   display: inline;
 }
 
-nav.nav-top{
+nav.nav-top a {
+  color: #fff;
   font-size: 1.5em;
 
 }
@@ -49,3 +51,4 @@ nav.nav-top{
 nav.nav-bottom {
   font-size: 1em;
 }
+
