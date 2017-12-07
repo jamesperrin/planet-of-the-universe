@@ -1,0 +1,51 @@
+
+/* COMMON CSS */
+
+html{
+    margin: 0;
+    padding: 0;
+    font: normal 100%/1.4 Georgia, serif;
+}
+
+a:hover{
+  /* background-color: yellow; */
+  /* font-weight: bold; */
+  border: 1px red dashed;
+}
+
+.planets-list li {
+  list-style: none;
+}
+
+/* MASTHEAD CSS */
+
+.masthead {
+  padding: 1em;
+  background: #005310 url("../img/nebula.jpg") no-repeat center center;
+  background-size: cover;
+  color: #fff;
+}
+
+.masthead-planets{
+  background-image: url("../img/nebula-2.jpg");
+}
+
+/* NAV CSS */
+
+.current{
+  background-color: #005310;
+  color: #fff;
+}
+
+nav li{
+  display: inline;
+}
+
+nav.nav-top{
+  font-size: 1.5em;
+
+}
+
+nav.nav-bottom {
+  font-size: 1em;
+}

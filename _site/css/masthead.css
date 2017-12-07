@@ -1,0 +1,13 @@
+
+/* MASTHEAD CSS */
+
+.masthead {
+  padding: 1em;
+  background: #005310 url("../img/nebula.jpg") no-repeat center center;
+  background-size: cover;
+  color: #fff;
+}
+
+.masthead-planets{
+  background-image: url("../img/nebula-2.jpg");
+}
